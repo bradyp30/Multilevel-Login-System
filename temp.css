@@ -1,0 +1,191 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+h3 {
+	font-weight: normal;
+}
+
+.registration-info {
+	padding: 1% 7%;
+	padding-bottom: 150px;
+}
+
+
+h5 {
+    padding-top: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #424242;
+    overflow: hidden;
+}
+
+.grid-item1 {
+    background-color: rgb(256, 0, 0);
+}
+
+.grid-item1:hover {
+    box-shadow: inset 0px 0px 0px 1px #edeef4;
+    cursor: pointer;
+}
+
+.grid-item2 {
+    background-color: rgb(0, 256, 0);
+}
+
+.grid-item2:hover {
+    box-shadow: inset 0px 0px 0px 1px #edeef4;
+    cursor: pointer;
+}
+
+.grid-item3 {
+    background-color: rgb(0, 0, 256);
+}
+
+.grid-item3:hover {
+    box-shadow: inset 0px 0px 0px 1px #edeef4;
+    cursor: pointer;
+}
+
+.grid-item4 {
+    background-color: rgb(256, 256, 0);
+}
+
+.grid-item4:hover {
+    box-shadow: inset 0px 0px 0px 1px #edeef4;
+    cursor: pointer;
+}
+
+.grid-item5 {
+    background-color: rgb(128, 0, 128);
+}
+
+.grid-item5:hover {
+    box-shadow: inset 0px 0px 0px 1px #edeef4;
+    cursor: pointer;
+}
+
+.grid-item6 {
+    background-color: rgb(256, 165, 0);
+}
+
+.grid-item6:hover {
+    box-shadow: inset 0px 0px 0px 1px #edeef4;
+    cursor: pointer;
+}
+
+.grid-item7 {
+    background-color: rgb(0, 128, 128);
+}
+
+.grid-item7:hover {
+    box-shadow: inset 0px 0px 0px 1px #edeef4;
+    cursor: pointer;
+}
+
+.grid-item8 {
+    background-color: rgb(256, 256, 256);
+}
+
+.grid-item8:hover {
+    box-shadow: inset 0px 0px 0px 1px #edeef4;
+    cursor: pointer;
+}
+
+.grid-item9 {
+    background-color: rgb(0, 0, 0);
+}
+
+.grid-item9:hover {
+    box-shadow: inset 0px 0px 0px 1px #edeef4;
+    cursor: pointer;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 500px;
+    height: 500px;
+    padding: 25px;
+}
+
+.grid-image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 1px;
+
+}
+
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(230, 230, 230);
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: rgb(136, 136, 136);
+    color: white;
+}
+
+.required-asterisk {
+	color: red;
+}
+
+.fields-container {
+	border-top: 2px solid #000000;
+	padding: 10px;
+	width: auto;
+}
+
+.field {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.field-name {
+	min-width: 150px;
+}
+
+.field-input {
+	width: 475px;
+	padding: 4px;
+}
+
+.buttons {
+	padding: 10px 20px;
+	border: 0;
+	background-color: #446088;
+	color: white;
+	border-radius: 8px;
+}
+
+.recover-info {
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left:35%;
+}
+
+.recover-entry {
+    padding-bottom: 50px;
+}
